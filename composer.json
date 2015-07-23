@@ -1,6 +1,6 @@
 {
 
-  "name": "NmDimas/yii2-user-agent-parser",
+  "name": "nmdimas/yii2-user-agent-parser",
   "type": "yii2-extension",
 
   "description": "The user agent parser  for the Yii framework (Yii2)",
