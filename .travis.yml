@@ -14,6 +14,7 @@ matrix:
 install:
   - travis_retry composer self-update && composer --version
   - travis_retry composer global require "fxp/composer-asset-plugin:~1.0.0"
+  - composer install --no-dev
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
 script: phpunit --coverage-clover=coverage.clover
 after_script:
