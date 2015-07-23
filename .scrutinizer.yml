@@ -4,7 +4,6 @@ imports:
 build:
     dependencies:
         before:
-            - composer self-update && composer --version
             - composer global require "fxp/composer-asset-plugin:~1.0.0"
 tools:
     external_code_coverage:
