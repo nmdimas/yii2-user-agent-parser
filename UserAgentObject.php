@@ -11,6 +11,9 @@ use yii\base\Object;
 class UserAgentObject extends Object
 {
     /** @var  string|null */
+    public $userAgent;
+
+    /** @var  string|null */
     public $platform;
 
     /** @var  string|null */

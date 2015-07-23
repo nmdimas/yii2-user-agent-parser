@@ -37,7 +37,6 @@ class UserAgentParser extends Component
      */
     public $nameHttpPropertyUserAgent = 'HTTP_USER_AGENT';
 
-
     /**
      * This method return UserAgentObject.
      *
@@ -52,7 +51,7 @@ class UserAgentParser extends Component
             $userAgent = $this->getUserAgentByRequest();
         }
         $objectData = ArrayHelper::merge(
-            ['class' => 'yii\useragentparser\'UserAgentObject'],
+            ['class' => 'yii\useragentparser\UserAgentObject','userAgent'=>$userAgent],
             $this->parseUserAgent($userAgent)
         );
 
