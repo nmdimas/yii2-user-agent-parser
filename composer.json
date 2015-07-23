@@ -1,0 +1,33 @@
+{
+
+  "name": "NmDimas/yii2-user-agent-parser",
+  "type": "yii2-extension",
+
+  "description": "The user agent parser  for the Yii framework (Yii2)",
+  "keywords": ["yii2", "user-agent", "parser","uaparser"],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/NmDimas/yii2-user-agent-parser/issues",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "authors": [
+    {
+      "name": "Dmytro Nemesh",
+      "email": "nmdimas@ukr.net"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "*",
+    "donatj/phpuseragentparser": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "yii\\useragentparser\\": ""
+    }
+  }
+}
