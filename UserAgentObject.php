@@ -6,7 +6,7 @@ namespace yii\useragentparser;
  * Class UserAgentObject
  * @package yii\useragentparser
  */
-class UserAgentObject extends \yii\base\BaseObject
+class UserAgentObject extends yii\base\BaseObject
 {
     /** @var  string|null */
     public $userAgent;
