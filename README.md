@@ -1,9 +1,8 @@
 # Yii2 extension for user agent parser 
 
-[![Build Status](https://travis-ci.org/nmdimas/yii2-user-agent-parser.svg?branch=master)](https://travis-ci.org/nmdimas/yii2-user-agent-parser)
-[![HHVM Status](http://hhvm.h4cc.de/badge/nmdimas/yii2-user-agent-parser.svg)](http://hhvm.h4cc.de/package/nmdimas/yii2-user-agent-parser)
-
+PHP >= 7.2 support. 
 This extension adds support for PhpUserAgent(https://github.com/donatj/PhpUserAgent) to the Yii2 framework.
+
 
 Installation
 ------------
