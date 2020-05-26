@@ -21,5 +21,4 @@ class UserAgentObject extends BaseObject
 
     /** @var  string|null */
     public $version;
-
 }
